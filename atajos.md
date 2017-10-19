@@ -40,4 +40,13 @@ En notación de Backus-Naur
 - Ctrl+l: Borrar pantalla
 - Ctrl+d: Termina un fichero
 
+git clone URL: Clonar un repositorio
+git status:
+git add . : añadir a repositorio local
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git push
+
+
+
 y luego tenemos readline
