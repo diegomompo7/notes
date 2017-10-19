@@ -13,3 +13,9 @@
 
 &lt;&lt;&lt; : Here string.
 
+##Metacaracteres
+
+~: Directorio home
+.: Directorio actual
+..: Directorio de arriba
+
