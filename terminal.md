@@ -18,4 +18,4 @@
 ~: Directorio home
 .: Directorio actual
 ..: Directorio de arriba
-
+-- (A veces el fichero que representa)
