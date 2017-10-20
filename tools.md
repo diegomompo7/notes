@@ -15,6 +15,7 @@ mkdir: make dir = Crea un directorio
 rm: remove = Quita un directorio
 rmdir: remove directory = Quita un directorio (sólo sí está vacío)
 rm -rf (**r**ecursivo **f**orce)
+mv cambia el nombre o cambia de sitio
 
 - git clone URL: Clonar un repositorio
 - git status: Ver un repositorio
@@ -43,3 +44,20 @@ tail -2 archivo
 tail -f (deja el fichero archivo)
 cut: corta vertical : cut -d"  " -f1
 split: divide horizontal
+
+1: Herramienta terminal
+2: Nucleo de aplicaciones
+3: Desarrollo de aplicaciones
+
+
+## Otras
+
+wget: Descarga de Internet
+tr: Translate
+-s squeezee
+uniq -c: deja filas funicas -c: cuenta
+sort ordena -n numerico
+
+
+
+cat shk.txt | tr "A-Z" "a-z" | tr -s "\t \n" "\n" | tr -cd "a-z\n" | sort | uniq -c | sort -n |tr -s  " " " " | cut -f3 -d" " | curl dict://dict.org
