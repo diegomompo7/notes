@@ -57,7 +57,26 @@ tr: Translate
 -s squeezee
 uniq -c: deja filas funicas -c: cuenta
 sort ordena -n numerico
+bc: calculadora
+cal: calendario
+touch: crea un fichero o lo actualizafor
 
 
 
 cat shk.txt | tr "A-Z" "a-z" | tr -s "\t \n" "\n" | tr -cd "a-z\n" | sort | uniq -c | sort -n |tr -s  " " " " | cut -f3 -d" " | curl dict://dict.org
+
+
+## Para buscar
+
+grep: Filtran
+ed: editor sin ventanas
+sed: lo mismo
+
+
+
+.n: linea
+-c : número de veces.n
+
+find: busca ficheros
+xargs: Ejecuta cona argumentos.
+which: Donde está un ejecutable.
