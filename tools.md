@@ -60,8 +60,14 @@ sort ordena -n numerico
 bc: calculadora
 cal: calendario
 touch: crea un fichero o lo actualizafor
+rsync: Hace copias de seguridad (varios equipos)
+mysqldump: volcado de la base de datos
+date Muestra la fecha (backup rotativo)
+history: muestra el historial
 
 
+
+##lIBRO
 
 cat shk.txt | tr "A-Z" "a-z" | tr -s "\t \n" "\n" | tr -cd "a-z\n" | sort | uniq -c | sort -n |tr -s  " " " " | cut -f3 -d" " | curl dict://dict.org
 

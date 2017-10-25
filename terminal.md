@@ -13,6 +13,10 @@
 
 &lt;&lt;&lt; : Here string.
 
+2>. Redirigir stderr
+
+|: Pipe, tubería (usa en secreto un fichero anónimo)
+
 ## VARIABLES
 
 
@@ -33,6 +37,7 @@ $: Dime el valor de una variable
 "": QUitar el poner a casi todos los meta menos al $vin opcione
 '': quita el poder a todos los metacaracteres.
 \#: Comentario
+& Ejecutar una cosa en segundo plano
 
 
 ## Otros
@@ -45,8 +50,7 @@ $: Dime el valor de una variable
 !: NOT
 
 
-
-
+##Opciones
 
 #! /bin/bash 
 
@@ -59,6 +63,12 @@ echo $0
 
 echo $(basename $0)
 
+##Backup
+
+mysqldump -u root -p sys > backup_`date "+%a"` .sql = Backup
 
 
 
+##Numeros
+
+(for i in `seq 1 10000` ; do sleep 1; done; echo "Terminé")
