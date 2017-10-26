@@ -2,20 +2,20 @@
 
 ```
 
-Comando head
-Comando head
-Comando head
-Siempre alerta estás.
+- Comando head
+- Comando head
+- Comando head
+- Siempre alerta estás.
 
 ```
 
-ls: list files = Muestraun directorio
-cd: change director = Cambiar de directorio
-mkdir: make dir = Crea un directorio
-rm: remove = Quita un directorio
-rmdir: remove directory = Quita un directorio (sólo sí está vacío)
-rm -rf (**r**ecursivo **f**orce)
-mv cambia el nombre o cambia de sitio
+- ls: list files = Muestraun directorio
+- cd: change director = Cambiar de directorio
+- mkdir: make dir = Crea un directorio
+- rm: remove = Quita un directorio
+- rmdir: remove directory = Quita un directorio (sólo sí está vacío)
+- rm -rf (**r**ecursivo **f**orce)
+- mv cambia el nombre o cambia de sitio
 
 - git clone URL: Clonar un repositorio
 - git status: Ver un repositorio
@@ -27,23 +27,23 @@ mv cambia el nombre o cambia de sitio
 - git add -u (quita repositorios)
 
 
-seq: secuencia de números
+- seq: secuencia de números
 
 ## Comandos para unir
 
-cat: concatenar arcivos en la terminal
+- cat: concatenar arcivos en la terminal
 
-paste: unir en vertical
+- paste: unir en vertical
 
-join: combinaciones
+- join: combinaciones
 
 ## Comandos que dividen
 
-head
-tail -2 archivo
-tail -f (deja el fichero archivo)
-cut: corta vertical : cut -d"  " -f1
-split: divide horizontal
+- head
+- tail -2 archivo
+- tail -f (deja el fichero archivo)
+- cut: corta vertical : cut -d"  " -f1
+- split: divide horizontal
 
 1: Herramienta terminal
 2: Nucleo de aplicaciones
@@ -52,37 +52,42 @@ split: divide horizontal
 
 ## Otras
 
-wget: Descarga de Internet
-tr: Translate
--s squeezee
-uniq -c: deja filas funicas -c: cuenta
-sort ordena -n numerico
-bc: calculadora
-cal: calendario
-touch: crea un fichero o lo actualizafor
-rsync: Hace copias de seguridad (varios equipos)
-mysqldump: volcado de la base de datos
-date Muestra la fecha (backup rotativo)
-history: muestra el historial
+- wget: Descarga de Internet
+- tr: Translate
+- -s squeezee
+- uniq -c: deja filas funicas -c: cuenta
+- sort ordena -n numerico
+- bc: calculadora
+- cal: calendario
+- touch: crea un fichero o lo actualizafor
+- rsync: Hace copias de seguridad (varios equipos)
+- mysqldump: volcado de la base de datos
+- date Muestra la fecha (backup rotativo)
+- history: muestra el historial
+- fg -n: Trae un proceso a primer plano
+- jobs : Lista los procesos detenidos.
+- ps aux: vemos los procesos
+- kill pid: Matamos el proceso
+- kill -9 pid: Matar por la fuerza
 
 
 
-##lIBRO
+##LIBRO
 
-cat shk.txt | tr "A-Z" "a-z" | tr -s "\t \n" "\n" | tr -cd "a-z\n" | sort | uniq -c | sort -n |tr -s  " " " " | cut -f3 -d" " | curl dict://dict.org
+- cat shk.txt | tr "A-Z" "a-z" | tr -s "\t \n" "\n" | tr -cd "a-z\n" | sort | uniq -c | sort -n |tr -s  " " " " | cut -f3 -d" " | curl dict://dict.org
 
 
 ## Para buscar
 
-grep: Filtran
-ed: editor sin ventanas
-sed: lo mismo
+- grep: Filtran
+- ed: editor sin ventanas
+- sed: lo mismo
 
 
 
-.n: linea
--c : número de veces.n
+- .n: linea
+- -c : número de veces.n
 
-find: busca ficheros
-xargs: Ejecuta cona argumentos.
-which: Donde está un ejecutable.
+- find: busca ficheros
+- xargs: Ejecuta cona argumentos.
+- which: Donde está un ejecutable.
