@@ -69,7 +69,7 @@
 - ps aux: vemos los procesos
 - kill pid: Matamos el proceso
 - kill -9 pid: Matar por la fuerza
-
+- tar [c,x]vzf: Crea o extrae carpetas comprimidas
 
 
 ##LIBRO
